@@ -1,0 +1,22 @@
+#!/bin/bash
+
+# Auth: Jason Cameron
+# DoC: 2022 09 10
+# LM: 2022 09 10
+
+# Dis:
+# Discover arithmatic ops
+
+# Run:
+# As instructed
+
+x=4
+y=2
+echo $(( x + y))
+echo $(( x - y))
+echo $(( x / y))
+echo $(( x * y))
+
+
+
+exit 0

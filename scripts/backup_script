@@ -1,0 +1,28 @@
+#!/bin/bash
+
+# Authour: Jason Cameron
+# DoC: 2022/09/09
+# LM: 2022/09/10
+
+# Dis:
+# Backup all the files within home dir
+
+# Usage:
+# Making things safe...
+
+echo "Hello, ${USER^}"
+echo "I will now backup your home directory, $HOME"
+
+currentDir=$(pwd)
+
+echo "You are running this script from $currentDir"
+echo "Therefore, I will save the backup in $currentDir"
+
+tar -cf $currentDir/my_backup_"$(date +%d-%m-%Y_%H-%M-%S)".tar $HOME/* 2>/dev/null
+
+echo "Backup Completed Successfully"
+
+
+
+
+exit 0

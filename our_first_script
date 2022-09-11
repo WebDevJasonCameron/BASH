@@ -1,0 +1,16 @@
+#!/bin/bash
+
+# Author: Jason Cameron
+# DOC: 09/09/2022
+# LM: 09/09/2022
+
+# Dis
+# Prints "This is my first script" to the terminal
+
+# Usage
+# Our_first_script 
+
+echo "This is my first script"
+exit 0
+
+

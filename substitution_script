@@ -1,0 +1,17 @@
+#!/bin/bash
+
+# Auth: Jason Cameron
+# DoC: 2022 09 10
+# LM: 2022 09 10
+
+# Dis: 
+# Leanring how to create command substitution scripts
+
+# Run:
+# As instructed
+
+time=$(date +%H:%m:%S)
+echo "Hello ${USER^}, the time right now is $time"
+
+
+exit 0
