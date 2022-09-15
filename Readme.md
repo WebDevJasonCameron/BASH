@@ -1,5 +1,11 @@
 # BASH Lessons
 
+## 2022 09 14 | Nano, Really?
+I'm wondering if I have to use Nano or VIM to create the python files for work.  This will mean I 
+need to KNOW python like it was my first language. This is a real challenge for someone juggling 
+python, java, javascript and the occasional HTML and CSS.
+
+
 ## 2022 09 12 | Today's LL
 Found out that I can keep putty running if I use ```$: when true; do ls ; sleep 5m ; done```. I also found
 out that ```history``` will give me a list of all the commands I've used in the past.  Then, if I use 
@@ -14,4 +20,4 @@ folder.  There is probably a better name for this... I haven't really figured on
 ### 2100 |  Cont
 Deleted a test.  This finally works in GIT.  Now I need to continue this BASH course.  Afterwards, 
 I'll be including a new folder for the following Linux courses.  Aftwards, I'l create a new repo for 
-VIM.  
+VIM.
